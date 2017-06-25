@@ -172,6 +172,10 @@ $endif$
 % bottom margin
 \setbeamertemplate{footline}{\vspace{8mm}}
 
+$for(header-includes)$
+$header-includes$
+$endfor$
+
 \begin{document}
 
 $if(title)$ { \frame{\titlepage} } $endif$
